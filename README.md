@@ -46,3 +46,6 @@ Este es el promedio de los resultados obtenidos en general, aunque estos pueden 
 |Quicksort|          |40194.8157|           |4975|
 
 |DialSort|           |1476.3349|            |135471|
+
+## Reporte técnico
+Para una explicación más profunda sobre la complejidad temporal, espacial y análisis de varianza de las pruebas, consulte el archivo ReporteTecnico.pdf adjunto en este repositorio.
