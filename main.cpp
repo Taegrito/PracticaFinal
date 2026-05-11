@@ -45,8 +45,8 @@ medidas calcularMedidas(const vector<double>& tiempos, int n) {
 }
 
 // Carga las palabras del dataset
-void cargarPalabras(vector<string>& palabras, const string& nombreArchivo) {
-    ifstream archivo(nombreArchivo);
+void cargarPalabras(vector<string>& palabras, const string& dataset) {
+    ifstream archivo(dataset);
     string palabra;
     if (archivo.is_open()) {
         while (archivo >> palabra) {
@@ -54,7 +54,7 @@ void cargarPalabras(vector<string>& palabras, const string& nombreArchivo) {
         }
         archivo.close();
     } else {
-        cerr << "Error: No se puede abrir el archivo " << nombreArchivo << endl;
+        cerr << "Error: No se puede abrir el archivo " << dataset << endl;
     }
 }
 int main() {
