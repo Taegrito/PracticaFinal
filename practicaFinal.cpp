@@ -5,7 +5,6 @@ using namespace std;
 #include <iostream>
 #include <vector>
 #include <string>
-using namespace std;
 // Simulador de Quicksort
 void simularQuicksort(std::vector<std::string>& arr, int low, int high) {
     if (low < high) {
